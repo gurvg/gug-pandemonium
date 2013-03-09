@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pandemonium</string>
+    <string name="accueil_titre">Bienvenue à tous amis hordeux</string>  
+    <string name="menu_charte">Charte</string>
+    <string name="menu_ts">Teamspeak</string>
+    <string name="menu_accueil">Accueil</string>
+    <string name="menu_lien">Liens</string>
+    <string name="menu_forum">Forum</string>
+    <string name="menu_raid">Avancée</string>
+    <string name="menu_video">Vidéos</string>
+     <string name="menu_refresh">Rafraîchir</string>
+    <string name="charte_titre">Charte de la guilde</string>
+    <string name="charte_text1">Pandémonium est une guilde Hordeuse présente sur le royaume de Varimathras.</string>
+    <string name="ts_titre">Qui est connecté sur le ts?</string>
+    <string name="ts_text1">bla bla</string>
+    <string name="lien_titre">Liens utiles</string>
+    <string name="lien_text1">bla bla</string>
+    <string name="forum_titre">Derniers posts du forum</string>
+    <string name="forum_text1">bla bla</string>
+     <string name="btn_msg_back">Retour</string>
+      <string name="btn_msg_link">Lien web</string>
+      
+      <color name="black">#000000</color>
+      <color name="white">#FFFFFF</color>
+    
+</resources>

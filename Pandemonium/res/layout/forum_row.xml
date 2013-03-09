@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/atom_list_selector"
+    android:orientation="horizontal"
+    android:padding="2dip" >
+   
+  
+    <!-- titre-->
+    <TextView
+        android:id="@+id/TextRow01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dip"
+        android:paddingBottom ="1dip"
+        android:text="toto"        
+        android:textColor="#040404"
+        android:textSize="15dip"
+        android:typeface="sans" />
+    <!-- Weather Information-->
+    <TextView
+        android:id="@+id/TextRow02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextRow01"        
+        android:paddingTop="1dip"
+        android:layout_marginLeft="4dip"      
+        android:text="test"
+        android:textColor="#343434"
+        android:textSize="12dip" />
+    
+     <!-- Rightend Arrow -->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:contentDescription="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/arrow" />
+ 
+</RelativeLayout>  

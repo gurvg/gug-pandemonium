@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/menu_accueil" android:orderInCategory="1" android:title="@string/menu_accueil"></item>
+    <item android:id="@+id/menu_charte" android:title="@string/menu_charte" android:orderInCategory="2"></item>
+    <item android:id="@+id/menu_ts" android:title="@string/menu_ts" android:orderInCategory="3"></item>
+    <item android:id="@+id/menu_lien" android:title="@string/menu_lien" android:orderInCategory="4"></item>
+    <item android:id="@+id/menu_forum" android:title="@string/menu_forum" android:orderInCategory="5"></item>
+    <item android:id="@+id/menu_raid" android:title="@string/menu_raid" android:orderInCategory="6"></item>
+    <item android:id="@+id/menu_video" android:title="@string/menu_video" android:orderInCategory="7"></item>
+   
+</menu>

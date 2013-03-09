@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black" >
+    
+        
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tv_forum"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:gravity="center"
+        android:background="@color/black"
+        android:text="Retrouvez nos vidéos de raids sur la chaîne Youtube NashtyGaming"
+        android:textColor="#3333FF"
+        android:textSize="16sp" />
+  
+
+    <ListView android:id="@+id/android:list" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="fill_parent"
+    	android:layout_below="@+id/tv_forum"
+    	android:layout_above="@+id/buttonBar"
+    	/>
+
+ <LinearLayout
+ android:id="@+id/buttonBar"
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:layout_alignParentBottom="true"
+ style="@android:style/ButtonBar"
+ android:gravity="left">
+
+       <ImageButton
+      android:id="@+id/btn_home"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:onClick="BtnHomeEvent"
+      android:src="@drawable/menu_home" 
+       />
+     
+      <ImageButton
+      android:id="@+id/btn_back"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:onClick="BtnBackEvent"
+      android:src="@drawable/navigation_back" 
+       />
+       
+
+       <ImageButton
+      android:id="@+id/btn_refresh"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:onClick="BtnRefreshEvent"
+      android:src="@drawable/navigation_refresh" 
+       />
+      
+  
+          
+</LinearLayout>
+       
+</RelativeLayout>
